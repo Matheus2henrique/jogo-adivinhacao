@@ -1,4 +1,4 @@
-alert('Bem vindo ao jogo da adivinhacao');
+alert('Bem-vindo ao jogo da adivinhacao');
 let numTotal = 100;
 let numSecrete =  parseInt(Math.random() * numTotal + 1);
 let chute = prompt(`numero que vc ache q seja o secreto de 1 a ${numTotal}`);
